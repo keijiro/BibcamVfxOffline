@@ -1,4 +1,14 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "Keijiro",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "jp.keijiro"
+      ]
+    }
+  ],
   "dependencies": {
+    "jp.keijiro.bibcam.vfxgraph.samples": "file:../BibcamVfx/Packages/jp.keijiro.bibcam.vfxgraph.samples"
   }
 }
