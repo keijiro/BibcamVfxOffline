@@ -878,7 +878,7 @@ Transform:
   - {fileID: 1597445382}
   - {fileID: 1285968901}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &247591328
 MonoBehaviour:
@@ -1867,176 +1867,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 455733263}
   m_CullTransparentMesh: 1
---- !u!1 &464427122
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 464427124}
-  - component: {fileID: 464427126}
-  - component: {fileID: 464427127}
-  - component: {fileID: 464427123}
-  - component: {fileID: 464427125}
-  m_Layer: 0
-  m_Name: Video Player
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!328 &464427123
-VideoPlayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 464427122}
-  m_Enabled: 1
-  m_VideoClip: {fileID: 0}
-  m_TargetCameraAlpha: 1
-  m_TargetCamera3DLayout: 0
-  m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 0}
-  m_TimeReference: 0
-  m_TargetMaterialRenderer: {fileID: 0}
-  m_TargetMaterialProperty: <noninit>
-  m_RenderMode: 4
-  m_AspectRatio: 2
-  m_DataSource: 1
-  m_PlaybackSpeed: 0.5
-  m_AudioOutputMode: 0
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
-  m_Url: file:///Users/keijiro/Downloads/Record_0225_1644_14.MOV
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
-  m_Looping: 1
-  m_WaitForFirstFrame: 1
-  m_FrameReadyEventEnabled: 0
-  m_VideoShaders: []
---- !u!4 &464427124
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 464427122}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &464427125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 464427122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b3d8e40962234dc2929489294cb907f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _decoder: {fileID: 467884317}
-  _demuxer: {fileID: 467884316}
-  _asynchronous: 1
---- !u!114 &464427126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 464427122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31d17f10cb20abd46a09cdb760efbe3d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &464427127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 464427122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: febf3cb2e724548e7a7ae2f7a427e634, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _slider: {fileID: 713685025}
---- !u!1 &467884315
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 467884318}
-  - component: {fileID: 467884317}
-  - component: {fileID: 467884316}
-  m_Layer: 0
-  m_Name: Bibcam Decoder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &467884316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 467884315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94509387823624a3db4b2fb0c365adb3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _margin: 1
-  _shader: {fileID: 4800000, guid: add5a8d52e2e749119e249f0a762eb85, type: 3}
---- !u!114 &467884317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 467884315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1aa41795cc9074639ac9f9bd16fd57ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _shader: {fileID: 7200000, guid: 7b1c01e18b47b4303b8abb8469ee69d3, type: 3}
---- !u!4 &467884318
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 467884315}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &635257982
 GameObject:
   m_ObjectHideFlags: 0
@@ -2288,7 +2118,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 464427127}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Bibcam.VideoController, Bibcam.Vfx.Samples
         m_MethodName: OnSliderTouch
         m_Mode: 0
@@ -2378,8 +2208,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae25cafffe5954172a9ef9a7b41bab6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _decoder: {fileID: 467884317}
-  _demux: {fileID: 467884316}
+  _decoder: {fileID: 1556319658}
+  _demux: {fileID: 1556319657}
   _colorMapProperty:
     m_Name: ColorMap
   _depthMapProperty:
@@ -2467,7 +2297,10 @@ VisualEffect:
         m_Name: VoxelSize
         m_Overridden: 1
     m_Vector2f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 0.10034003, y: 5.0170016}
+        m_Name: DepthRange
+        m_Overridden: 1
     m_Vector3f:
       m_Array:
       - m_Value: {x: 0, y: 1, z: -10}
@@ -2480,19 +2313,47 @@ VisualEffect:
         m_Name: EffectOrigin
         m_Overridden: 1
     m_Vector4f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: -0.0006264448, y: 0.0009871721, z: 0.72196877, w: 0.40610743}
+        m_Name: RayParams
+        m_Overridden: 1
     m_Uint:
       m_Array: []
     m_Int:
       m_Array: []
     m_Matrix4x4f:
-      m_Array: []
+      m_Array:
+      - m_Value:
+          e00: 0.7987042
+          e01: 0.06080161
+          e02: 0.5986441
+          e03: -0.065841675
+          e10: 0.0071890056
+          e11: 0.99384654
+          e12: -0.110532045
+          e13: 3.2228584
+          e20: -0.60168093
+          e21: 0.09258607
+          e22: 0.7933523
+          e23: -12.066956
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 1
+        m_Name: InverseView
+        m_Overridden: 1
     m_AnimationCurve:
       m_Array: []
     m_Gradient:
       m_Array: []
     m_NamedObject:
-      m_Array: []
+      m_Array:
+      - m_Value: {fileID: 811509219}
+        m_Name: ColorMap
+        m_Overridden: 1
+      - m_Value: {fileID: 1860700718}
+        m_Name: DepthMap
+        m_Overridden: 1
     m_Bool:
       m_Array: []
 --- !u!1 &759754755
@@ -2528,8 +2389,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae25cafffe5954172a9ef9a7b41bab6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _decoder: {fileID: 467884317}
-  _demux: {fileID: 467884316}
+  _decoder: {fileID: 1556319658}
+  _demux: {fileID: 1556319657}
   _colorMapProperty:
     m_Name: ColorMap
   _depthMapProperty:
@@ -2890,6 +2751,43 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791271270}
   m_CullTransparentMesh: 1
+--- !u!84 &811509219
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 960
+  m_Height: 1080
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthStencilFormat: 0
+  m_ColorFormat: 57
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 1
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
 --- !u!1 &871354834
 GameObject:
   m_ObjectHideFlags: 0
@@ -3510,8 +3408,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae25cafffe5954172a9ef9a7b41bab6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _decoder: {fileID: 467884317}
-  _demux: {fileID: 467884316}
+  _decoder: {fileID: 1556319658}
+  _demux: {fileID: 1556319657}
   _colorMapProperty:
     m_Name: ColorMap
   _depthMapProperty:
@@ -3873,8 +3771,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae25cafffe5954172a9ef9a7b41bab6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _decoder: {fileID: 467884317}
-  _demux: {fileID: 467884316}
+  _decoder: {fileID: 1556319658}
+  _demux: {fileID: 1556319657}
   _colorMapProperty:
     m_Name: ColorMap
   _depthMapProperty:
@@ -4129,8 +4027,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae25cafffe5954172a9ef9a7b41bab6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _decoder: {fileID: 467884317}
-  _demux: {fileID: 467884316}
+  _decoder: {fileID: 1556319658}
+  _demux: {fileID: 1556319657}
   _colorMapProperty:
     m_Name: ColorMap
   _depthMapProperty:
@@ -4410,8 +4308,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae25cafffe5954172a9ef9a7b41bab6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _decoder: {fileID: 467884317}
-  _demux: {fileID: 467884316}
+  _decoder: {fileID: 1556319658}
+  _demux: {fileID: 1556319657}
   _colorMapProperty:
     m_Name: ColorMap
   _depthMapProperty:
@@ -4615,7 +4513,8 @@ GameObject:
   - component: {fileID: 1556319654}
   - component: {fileID: 1556319652}
   - component: {fileID: 1556319655}
-  - component: {fileID: 1556319656}
+  - component: {fileID: 1556319658}
+  - component: {fileID: 1556319657}
   m_Layer: 0
   m_Name: Virtual Camera
   m_TagString: Untagged
@@ -4634,7 +4533,7 @@ Camera:
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
+  m_projectionMatrixMode: 0
   m_GateFitMode: 2
   m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
@@ -4809,7 +4708,7 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
---- !u!114 &1556319656
+--- !u!114 &1556319657
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4818,11 +4717,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1556319651}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a5ee19bd9835470293185ee5602179a, type: 3}
+  m_Script: {fileID: 11500000, guid: 94509387823624a3db4b2fb0c365adb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _decoder: {fileID: 467884317}
-  _interpolation: 1
+  _margin: 1
+  _shader: {fileID: 4800000, guid: add5a8d52e2e749119e249f0a762eb85, type: 3}
+--- !u!114 &1556319658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556319651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa41795cc9074639ac9f9bd16fd57ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shader: {fileID: 7200000, guid: 7b1c01e18b47b4303b8abb8469ee69d3, type: 3}
 --- !u!1 &1597445381
 GameObject:
   m_ObjectHideFlags: 0
@@ -4870,8 +4782,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae25cafffe5954172a9ef9a7b41bab6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _decoder: {fileID: 467884317}
-  _demux: {fileID: 467884316}
+  _decoder: {fileID: 1556319658}
+  _demux: {fileID: 1556319657}
   _colorMapProperty:
     m_Name: ColorMap
   _depthMapProperty:
@@ -5034,8 +4946,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae25cafffe5954172a9ef9a7b41bab6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _decoder: {fileID: 467884317}
-  _demux: {fileID: 467884316}
+  _decoder: {fileID: 1556319658}
+  _demux: {fileID: 1556319657}
   _colorMapProperty:
     m_Name: ColorMap
   _depthMapProperty:
@@ -5373,8 +5285,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae25cafffe5954172a9ef9a7b41bab6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _decoder: {fileID: 467884317}
-  _demux: {fileID: 467884316}
+  _decoder: {fileID: 1556319658}
+  _demux: {fileID: 1556319657}
   _colorMapProperty:
     m_Name: ColorMap
   _depthMapProperty:
@@ -5716,7 +5628,10 @@ VisualEffect:
     m_Float:
       m_Array: []
     m_Vector2f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 0.10034003, y: 5.0170016}
+        m_Name: DepthRange
+        m_Overridden: 1
     m_Vector3f:
       m_Array:
       - m_Value: {x: -0, y: 0, z: 0}
@@ -5733,18 +5648,46 @@ VisualEffect:
       - m_Value: {x: 0.25882354, y: 2, z: 2, w: 1}
         m_Name: Line Color
         m_Overridden: 1
+      - m_Value: {x: -0.0006264448, y: 0.0009871721, z: 0.72196877, w: 0.40610743}
+        m_Name: RayParams
+        m_Overridden: 1
     m_Uint:
       m_Array: []
     m_Int:
       m_Array: []
     m_Matrix4x4f:
-      m_Array: []
+      m_Array:
+      - m_Value:
+          e00: 0.7987042
+          e01: 0.06080161
+          e02: 0.5986441
+          e03: -0.065841675
+          e10: 0.0071890056
+          e11: 0.99384654
+          e12: -0.110532045
+          e13: 3.2228584
+          e20: -0.60168093
+          e21: 0.09258607
+          e22: 0.7933523
+          e23: -12.066956
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 1
+        m_Name: InverseView
+        m_Overridden: 1
     m_AnimationCurve:
       m_Array: []
     m_Gradient:
       m_Array: []
     m_NamedObject:
-      m_Array: []
+      m_Array:
+      - m_Value: {fileID: 811509219}
+        m_Name: ColorMap
+        m_Overridden: 1
+      - m_Value: {fileID: 1860700718}
+        m_Name: DepthMap
+        m_Overridden: 1
     m_Bool:
       m_Array: []
 --- !u!114 &1857374126
@@ -5759,8 +5702,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae25cafffe5954172a9ef9a7b41bab6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _decoder: {fileID: 467884317}
-  _demux: {fileID: 467884316}
+  _decoder: {fileID: 1556319658}
+  _demux: {fileID: 1556319657}
   _colorMapProperty:
     m_Name: ColorMap
   _depthMapProperty:
@@ -5771,6 +5714,43 @@ MonoBehaviour:
     m_Name: InverseView
   _depthRangeProperty:
     m_Name: DepthRange
+--- !u!84 &1860700718
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 960
+  m_Height: 540
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthStencilFormat: 0
+  m_ColorFormat: 45
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
 --- !u!1 &1865667650
 GameObject:
   m_ObjectHideFlags: 0
@@ -6094,6 +6074,57 @@ MonoBehaviour:
   m_Property:
     m_Name: PreviousPosition
   Target: {fileID: 882363112}
+--- !u!1 &1979921235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1979921237}
+  - component: {fileID: 1979921236}
+  m_Layer: 0
+  m_Name: Timeline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!320 &1979921236
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979921235}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: f02a262329b2149a2a7b0a7eeaa0dedf, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -5314797300523578324, guid: f02a262329b2149a2a7b0a7eeaa0dedf, type: 2}
+    value: {fileID: 1556319652}
+  m_ExposedReferences:
+    m_References: []
+--- !u!4 &1979921237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979921235}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2046798813
 GameObject:
   m_ObjectHideFlags: 0

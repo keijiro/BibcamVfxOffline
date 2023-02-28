@@ -12,5 +12,4 @@ Desktop.ini
 /Temp
 /UserSettings
 
-/Assets/StreamingAssets/*.mov
-/Assets/StreamingAssets/*.mov.meta
+*.mov

@@ -9,6 +9,7 @@
     }
   ],
   "dependencies": {
+    "jp.keijiro.bibcam.timeline": "2.0.0",
     "jp.keijiro.bibcam.vfxgraph.samples": "file:../BibcamVfx/Packages/jp.keijiro.bibcam.vfxgraph.samples"
   }
 }
