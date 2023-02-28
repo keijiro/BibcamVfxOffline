@@ -1,0 +1,3 @@
+[submodule "BibcamVfx"]
+	path = BibcamVfx
+	url = git@github.com:keijiro/BibcamVfx.git
