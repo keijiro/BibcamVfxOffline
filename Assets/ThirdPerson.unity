@@ -2298,7 +2298,7 @@ VisualEffect:
         m_Overridden: 1
     m_Vector2f:
       m_Array:
-      - m_Value: {x: 0.10034003, y: 5.0170016}
+      - m_Value: {x: 0.115519956, y: 5.7759976}
         m_Name: DepthRange
         m_Overridden: 1
     m_Vector3f:
@@ -2314,7 +2314,7 @@ VisualEffect:
         m_Overridden: 1
     m_Vector4f:
       m_Array:
-      - m_Value: {x: -0.0006264448, y: 0.0009871721, z: 0.72196877, w: 0.40610743}
+      - m_Value: {x: -0.0015951395, y: 0.022969902, z: 0.7206807, w: 0.4053829}
         m_Name: RayParams
         m_Overridden: 1
     m_Uint:
@@ -2324,18 +2324,18 @@ VisualEffect:
     m_Matrix4x4f:
       m_Array:
       - m_Value:
-          e00: 0.7987042
-          e01: 0.06080161
-          e02: 0.5986441
-          e03: -0.065841675
-          e10: 0.0071890056
-          e11: 0.99384654
-          e12: -0.110532045
-          e13: 3.2228584
-          e20: -0.60168093
-          e21: 0.09258607
-          e22: 0.7933523
-          e23: -12.066956
+          e00: -0.21616364
+          e01: 0.01076482
+          e02: -0.97629786
+          e03: -21.76292
+          e10: 0.015637765
+          e11: 0.99984914
+          e12: 0.007562119
+          e13: 0.14395285
+          e20: 0.97623193
+          e21: -0.01363246
+          e22: -0.2162993
+          e23: -6.8420105
           e30: 0
           e31: 0
           e32: 0
@@ -2348,10 +2348,10 @@ VisualEffect:
       m_Array: []
     m_NamedObject:
       m_Array:
-      - m_Value: {fileID: 811509219}
+      - m_Value: {fileID: 0}
         m_Name: ColorMap
         m_Overridden: 1
-      - m_Value: {fileID: 1860700718}
+      - m_Value: {fileID: 0}
         m_Name: DepthMap
         m_Overridden: 1
     m_Bool:
@@ -2751,43 +2751,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791271270}
   m_CullTransparentMesh: 1
---- !u!84 &811509219
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 960
-  m_Height: 1080
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 0
-  m_ColorFormat: 57
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 1
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!1 &871354834
 GameObject:
   m_ObjectHideFlags: 0
@@ -3046,7 +3009,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3642,7 +3605,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1313905644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3860,7 +3823,10 @@ VisualEffect:
         m_Name: VoxelSize
         m_Overridden: 1
     m_Vector2f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 0.115519956, y: 5.7759976}
+        m_Name: DepthRange
+        m_Overridden: 1
     m_Vector3f:
       m_Array:
       - m_Value: {x: 3.098, y: -0.46, z: -0.044}
@@ -3870,19 +3836,47 @@ VisualEffect:
         m_Name: Camera Position
         m_Overridden: 1
     m_Vector4f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: -0.0015951395, y: 0.022969902, z: 0.7206807, w: 0.4053829}
+        m_Name: RayParams
+        m_Overridden: 1
     m_Uint:
       m_Array: []
     m_Int:
       m_Array: []
     m_Matrix4x4f:
-      m_Array: []
+      m_Array:
+      - m_Value:
+          e00: -0.21616364
+          e01: 0.01076482
+          e02: -0.97629786
+          e03: -21.76292
+          e10: 0.015637765
+          e11: 0.99984914
+          e12: 0.007562119
+          e13: 0.14395285
+          e20: 0.97623193
+          e21: -0.01363246
+          e22: -0.2162993
+          e23: -6.8420105
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 1
+        m_Name: InverseView
+        m_Overridden: 1
     m_AnimationCurve:
       m_Array: []
     m_Gradient:
       m_Array: []
     m_NamedObject:
-      m_Array: []
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: ColorMap
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: DepthMap
+        m_Overridden: 1
     m_Bool:
       m_Array: []
 --- !u!4 &1368439933
@@ -4397,7 +4391,10 @@ VisualEffect:
         m_Name: VoxelSize
         m_Overridden: 1
     m_Vector2f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 0.115519956, y: 5.7759976}
+        m_Name: DepthRange
+        m_Overridden: 1
     m_Vector3f:
       m_Array:
       - m_Value: {x: 0, y: 1, z: -10}
@@ -4410,19 +4407,47 @@ VisualEffect:
         m_Name: EffectOrigin
         m_Overridden: 1
     m_Vector4f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: -0.0015951395, y: 0.022969902, z: 0.7206807, w: 0.4053829}
+        m_Name: RayParams
+        m_Overridden: 1
     m_Uint:
       m_Array: []
     m_Int:
       m_Array: []
     m_Matrix4x4f:
-      m_Array: []
+      m_Array:
+      - m_Value:
+          e00: -0.21616364
+          e01: 0.01076482
+          e02: -0.97629786
+          e03: -21.76292
+          e10: 0.015637765
+          e11: 0.99984914
+          e12: 0.007562119
+          e13: 0.14395285
+          e20: 0.97623193
+          e21: -0.01363246
+          e22: -0.2162993
+          e23: -6.8420105
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 1
+        m_Name: InverseView
+        m_Overridden: 1
     m_AnimationCurve:
       m_Array: []
     m_Gradient:
       m_Array: []
     m_NamedObject:
-      m_Array: []
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: ColorMap
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: DepthMap
+        m_Overridden: 1
     m_Bool:
       m_Array: []
 --- !u!1 &1548648294
@@ -4871,7 +4896,10 @@ VisualEffect:
         m_Name: VoxelSize
         m_Overridden: 1
     m_Vector2f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 0.115519956, y: 5.7759976}
+        m_Name: DepthRange
+        m_Overridden: 1
     m_Vector3f:
       m_Array:
       - m_Value: {x: 0, y: 1, z: -10}
@@ -4884,19 +4912,47 @@ VisualEffect:
         m_Name: EffectOrigin
         m_Overridden: 1
     m_Vector4f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: -0.0015951395, y: 0.022969902, z: 0.7206807, w: 0.4053829}
+        m_Name: RayParams
+        m_Overridden: 1
     m_Uint:
       m_Array: []
     m_Int:
       m_Array: []
     m_Matrix4x4f:
-      m_Array: []
+      m_Array:
+      - m_Value:
+          e00: -0.21616364
+          e01: 0.01076482
+          e02: -0.97629786
+          e03: -21.76292
+          e10: 0.015637765
+          e11: 0.99984914
+          e12: 0.007562119
+          e13: 0.14395285
+          e20: 0.97623193
+          e21: -0.01363246
+          e22: -0.2162993
+          e23: -6.8420105
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 1
+        m_Name: InverseView
+        m_Overridden: 1
     m_AnimationCurve:
       m_Array: []
     m_Gradient:
       m_Array: []
     m_NamedObject:
-      m_Array: []
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: ColorMap
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: DepthMap
+        m_Overridden: 1
     m_Bool:
       m_Array: []
 --- !u!1 &1624929294
@@ -5419,7 +5475,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1847034509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5629,7 +5685,7 @@ VisualEffect:
       m_Array: []
     m_Vector2f:
       m_Array:
-      - m_Value: {x: 0.10034003, y: 5.0170016}
+      - m_Value: {x: 0.115519956, y: 5.7759976}
         m_Name: DepthRange
         m_Overridden: 1
     m_Vector3f:
@@ -5648,7 +5704,7 @@ VisualEffect:
       - m_Value: {x: 0.25882354, y: 2, z: 2, w: 1}
         m_Name: Line Color
         m_Overridden: 1
-      - m_Value: {x: -0.0006264448, y: 0.0009871721, z: 0.72196877, w: 0.40610743}
+      - m_Value: {x: -0.0015951395, y: 0.022969902, z: 0.7206807, w: 0.4053829}
         m_Name: RayParams
         m_Overridden: 1
     m_Uint:
@@ -5658,18 +5714,18 @@ VisualEffect:
     m_Matrix4x4f:
       m_Array:
       - m_Value:
-          e00: 0.7987042
-          e01: 0.06080161
-          e02: 0.5986441
-          e03: -0.065841675
-          e10: 0.0071890056
-          e11: 0.99384654
-          e12: -0.110532045
-          e13: 3.2228584
-          e20: -0.60168093
-          e21: 0.09258607
-          e22: 0.7933523
-          e23: -12.066956
+          e00: -0.21616364
+          e01: 0.01076482
+          e02: -0.97629786
+          e03: -21.76292
+          e10: 0.015637765
+          e11: 0.99984914
+          e12: 0.007562119
+          e13: 0.14395285
+          e20: 0.97623193
+          e21: -0.01363246
+          e22: -0.2162993
+          e23: -6.8420105
           e30: 0
           e31: 0
           e32: 0
@@ -5682,10 +5738,10 @@ VisualEffect:
       m_Array: []
     m_NamedObject:
       m_Array:
-      - m_Value: {fileID: 811509219}
+      - m_Value: {fileID: 0}
         m_Name: ColorMap
         m_Overridden: 1
-      - m_Value: {fileID: 1860700718}
+      - m_Value: {fileID: 0}
         m_Name: DepthMap
         m_Overridden: 1
     m_Bool:
@@ -5714,43 +5770,6 @@ MonoBehaviour:
     m_Name: InverseView
   _depthRangeProperty:
     m_Name: DepthRange
---- !u!84 &1860700718
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 960
-  m_Height: 540
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 0
-  m_ColorFormat: 45
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!1 &1865667650
 GameObject:
   m_ObjectHideFlags: 0
@@ -6084,6 +6103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1979921237}
   - component: {fileID: 1979921236}
+  - component: {fileID: 1979921238}
   m_Layer: 0
   m_Name: Timeline
   m_TagString: Untagged
@@ -6125,6 +6145,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1979921238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979921235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: d22f15c2356a442f7b00107b848bca38, type: 2}
+    - {fileID: 11400000, guid: 7804681a117f6410d98e0097f7759908, type: 2}
+    - {fileID: 11400000, guid: fa5a7a77c1c6145cd8f4dd6821b6682b, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 882363113}
+          m_TargetAssemblyTypeName: Bibcam.CameraRigController, Bibcam.Vfx.Samples
+          m_MethodName: SwitchToCloseRangeView
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 882363113}
+          m_TargetAssemblyTypeName: Bibcam.CameraRigController, Bibcam.Vfx.Samples
+          m_MethodName: SwitchToFirstPersonView
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 882363113}
+          m_TargetAssemblyTypeName: Bibcam.CameraRigController, Bibcam.Vfx.Samples
+          m_MethodName: SwitchToLongRangeView
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2046798813
 GameObject:
   m_ObjectHideFlags: 0
@@ -6239,7 +6319,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 40, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
