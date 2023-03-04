@@ -2314,7 +2314,7 @@ VisualEffect:
         m_Overridden: 1
     m_Vector4f:
       m_Array:
-      - m_Value: {x: -0.0015951395, y: 0.022969902, z: 0.7206807, w: 0.4053829}
+      - m_Value: {x: -0.0021730661, y: 0.026055932, z: 0.7193959, w: 0.40466017}
         m_Name: RayParams
         m_Overridden: 1
     m_Uint:
@@ -2324,18 +2324,18 @@ VisualEffect:
     m_Matrix4x4f:
       m_Array:
       - m_Value:
-          e00: -0.21616364
-          e01: 0.01076482
-          e02: -0.97629786
-          e03: -21.76292
-          e10: 0.015637765
-          e11: 0.99984914
-          e12: 0.007562119
-          e13: 0.14395285
-          e20: 0.97623193
-          e21: -0.01363246
-          e22: -0.2162993
-          e23: -6.8420105
+          e00: -0.1258465
+          e01: 0.035083614
+          e02: -0.9914292
+          e03: -8.882458
+          e10: 0.01522706
+          e11: 0.99932504
+          e12: 0.03343019
+          e13: 0.096534014
+          e20: 0.99193287
+          e21: -0.010889482
+          e22: -0.12629569
+          e23: -3.073328
           e30: 0
           e31: 0
           e32: 0
@@ -3837,7 +3837,7 @@ VisualEffect:
         m_Overridden: 1
     m_Vector4f:
       m_Array:
-      - m_Value: {x: -0.0015951395, y: 0.022969902, z: 0.7206807, w: 0.4053829}
+      - m_Value: {x: -0.0021730661, y: 0.026055932, z: 0.7193959, w: 0.40466017}
         m_Name: RayParams
         m_Overridden: 1
     m_Uint:
@@ -3847,18 +3847,18 @@ VisualEffect:
     m_Matrix4x4f:
       m_Array:
       - m_Value:
-          e00: -0.21616364
-          e01: 0.01076482
-          e02: -0.97629786
-          e03: -21.76292
-          e10: 0.015637765
-          e11: 0.99984914
-          e12: 0.007562119
-          e13: 0.14395285
-          e20: 0.97623193
-          e21: -0.01363246
-          e22: -0.2162993
-          e23: -6.8420105
+          e00: -0.1258465
+          e01: 0.035083614
+          e02: -0.9914292
+          e03: -8.882458
+          e10: 0.01522706
+          e11: 0.99932504
+          e12: 0.03343019
+          e13: 0.096534014
+          e20: 0.99193287
+          e21: -0.010889482
+          e22: -0.12629569
+          e23: -3.073328
           e30: 0
           e31: 0
           e32: 0
@@ -4408,7 +4408,7 @@ VisualEffect:
         m_Overridden: 1
     m_Vector4f:
       m_Array:
-      - m_Value: {x: -0.0015951395, y: 0.022969902, z: 0.7206807, w: 0.4053829}
+      - m_Value: {x: -0.0021730661, y: 0.026055932, z: 0.7193959, w: 0.40466017}
         m_Name: RayParams
         m_Overridden: 1
     m_Uint:
@@ -4418,18 +4418,18 @@ VisualEffect:
     m_Matrix4x4f:
       m_Array:
       - m_Value:
-          e00: -0.21616364
-          e01: 0.01076482
-          e02: -0.97629786
-          e03: -21.76292
-          e10: 0.015637765
-          e11: 0.99984914
-          e12: 0.007562119
-          e13: 0.14395285
-          e20: 0.97623193
-          e21: -0.01363246
-          e22: -0.2162993
-          e23: -6.8420105
+          e00: -0.1258465
+          e01: 0.035083614
+          e02: -0.9914292
+          e03: -8.882458
+          e10: 0.01522706
+          e11: 0.99932504
+          e12: 0.03343019
+          e13: 0.096534014
+          e20: 0.99193287
+          e21: -0.010889482
+          e22: -0.12629569
+          e23: -3.073328
           e30: 0
           e31: 0
           e32: 0
@@ -4913,7 +4913,7 @@ VisualEffect:
         m_Overridden: 1
     m_Vector4f:
       m_Array:
-      - m_Value: {x: -0.0015951395, y: 0.022969902, z: 0.7206807, w: 0.4053829}
+      - m_Value: {x: -0.0021730661, y: 0.026055932, z: 0.7193959, w: 0.40466017}
         m_Name: RayParams
         m_Overridden: 1
     m_Uint:
@@ -4923,18 +4923,18 @@ VisualEffect:
     m_Matrix4x4f:
       m_Array:
       - m_Value:
-          e00: -0.21616364
-          e01: 0.01076482
-          e02: -0.97629786
-          e03: -21.76292
-          e10: 0.015637765
-          e11: 0.99984914
-          e12: 0.007562119
-          e13: 0.14395285
-          e20: 0.97623193
-          e21: -0.01363246
-          e22: -0.2162993
-          e23: -6.8420105
+          e00: -0.1258465
+          e01: 0.035083614
+          e02: -0.9914292
+          e03: -8.882458
+          e10: 0.01522706
+          e11: 0.99932504
+          e12: 0.03343019
+          e13: 0.096534014
+          e20: 0.99193287
+          e21: -0.010889482
+          e22: -0.12629569
+          e23: -3.073328
           e30: 0
           e31: 0
           e32: 0
@@ -5704,7 +5704,7 @@ VisualEffect:
       - m_Value: {x: 0.25882354, y: 2, z: 2, w: 1}
         m_Name: Line Color
         m_Overridden: 1
-      - m_Value: {x: -0.0015951395, y: 0.022969902, z: 0.7206807, w: 0.4053829}
+      - m_Value: {x: -0.0021730661, y: 0.026055932, z: 0.7193959, w: 0.40466017}
         m_Name: RayParams
         m_Overridden: 1
     m_Uint:
@@ -5714,18 +5714,18 @@ VisualEffect:
     m_Matrix4x4f:
       m_Array:
       - m_Value:
-          e00: -0.21616364
-          e01: 0.01076482
-          e02: -0.97629786
-          e03: -21.76292
-          e10: 0.015637765
-          e11: 0.99984914
-          e12: 0.007562119
-          e13: 0.14395285
-          e20: 0.97623193
-          e21: -0.01363246
-          e22: -0.2162993
-          e23: -6.8420105
+          e00: -0.1258465
+          e01: 0.035083614
+          e02: -0.9914292
+          e03: -8.882458
+          e10: 0.01522706
+          e11: 0.99932504
+          e12: 0.03343019
+          e13: 0.096534014
+          e20: 0.99193287
+          e21: -0.010889482
+          e22: -0.12629569
+          e23: -3.073328
           e30: 0
           e31: 0
           e32: 0
@@ -6162,6 +6162,11 @@ MonoBehaviour:
     - {fileID: 11400000, guid: d22f15c2356a442f7b00107b848bca38, type: 2}
     - {fileID: 11400000, guid: 7804681a117f6410d98e0097f7759908, type: 2}
     - {fileID: 11400000, guid: fa5a7a77c1c6145cd8f4dd6821b6682b, type: 2}
+    - {fileID: 11400000, guid: 9cd648335f0644cb597093e67051119b, type: 2}
+    - {fileID: 11400000, guid: dc14a104f9f5b4c8fb5675764034a5d5, type: 2}
+    - {fileID: 11400000, guid: 13feef9621d2443d19313e65288eb807, type: 2}
+    - {fileID: 11400000, guid: 25b227c3c37a9486eb76590754a7985f, type: 2}
+    - {fileID: 11400000, guid: bdda5708825e84cc58c960d721c75e5b, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -6201,6 +6206,76 @@ MonoBehaviour:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 247591328}
+          m_TargetAssemblyTypeName: Bibcam.EffectSwitcher, Bibcam.Vfx.Samples
+          m_MethodName: SwitchEffect
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 247591328}
+          m_TargetAssemblyTypeName: Bibcam.EffectSwitcher, Bibcam.Vfx.Samples
+          m_MethodName: SwitchEffect
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 247591328}
+          m_TargetAssemblyTypeName: Bibcam.EffectSwitcher, Bibcam.Vfx.Samples
+          m_MethodName: SwitchEffect
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 247591328}
+          m_TargetAssemblyTypeName: Bibcam.EffectSwitcher, Bibcam.Vfx.Samples
+          m_MethodName: SwitchEffect
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 3
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 247591328}
+          m_TargetAssemblyTypeName: Bibcam.EffectSwitcher, Bibcam.Vfx.Samples
+          m_MethodName: SwitchEffect
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 4
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
